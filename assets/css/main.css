@@ -9,6 +9,7 @@
 */
 
 /* Reset */
+
 :root{
 	--colorBase: rgba(10, 148, 17, 0.95); 
 }
@@ -3709,6 +3710,7 @@
 			opacity: 1;
 		}
 	}
+	
 
 	#header {
 		background: var(--colorBase);
@@ -3722,6 +3724,7 @@
 		top: 0;
 		width: 100%;
 		z-index: 10001;
+		
 	}
 
 		#header > .logo {
@@ -4313,3 +4316,6 @@
 			}
 
 		}
+.HeaderBanner > h2 {
+	font-size: 80px !important;
+}
